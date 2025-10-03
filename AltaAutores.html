@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+			  <div class="container-fluid">
+			    <ul class="navbar-nav">
+			      <li class="nav-item">
+			        <a class="nav-link active" href="#">Alta de autores</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="Ejemplo_BarraNavegacion_MassPacheco.html">Página principal</a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+			<div class="shadow-lg p-4 mb-4 bg-white"><h1>AUTORES</h1></div>
+			<p></p>
+			<h2>Datos del autor</h2>
+			  <form action="/action_page.php">
+			    <div class="form-floating mb-3 mt-3">
+				  <input type="text" class="form-control" id="apellidosAutor" placeholder="Apellidos del autor" name="ApellidosAutor">
+				  <label for="apellidosAutor">Apellidos del autor</label>
+				</div>
+				<div class="form-floating mb-3 mt-3">
+				  <input type="text" class="form-control" id="nombresAutor" placeholder="Nombres del autor" name="NombresAutor">
+				  <label for="nombresAutor">Nombres del autor</label>
+				</div>
+				<div class="form-floating">
+				  <select class="form-select" id="nacionalidadAutor" name="NacionalidadAutor">
+				    <option>Mexicana</option>
+				    <option>Española</option>
+				    <option>Estadounidense</option>
+				    <option>Canadiense</option>
+				  </select>
+				  <label for="nacionalidadAutor" class="form-label">Selecciona una nacionalidad</label>
+				</div>
+				<p></p>
+			    <button type="submit" class="btn btn-danger">Enviar</button>
+			  </form>
+		</div>
+	</body>
+</html>
